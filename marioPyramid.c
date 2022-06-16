@@ -16,7 +16,7 @@ int column;
         printf("Pyramid Height: ");
 
         scanf("%d", &height);
-        
-    } while (/* condition */);
+
+    } while (height < 1 || height > 8);
     
 }
