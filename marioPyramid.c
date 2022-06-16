@@ -6,14 +6,17 @@
 
 int main(void)
 {
-    
+
 int height;
 int row;
 int column;
 
     do
     {
-        /* code */
+        printf("Pyramid Height: ");
+
+        scanf("%d", &height);
+        
     } while (/* condition */);
     
 }
