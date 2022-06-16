@@ -18,5 +18,10 @@ int column;
         scanf("%d", &height);
 
     } while (height < 1 || height > 8);
+
+     for(int row = 0; row < height; row++)
+     {
+        for(int column = 0; column <= row; column++)
+     }
     
 }
