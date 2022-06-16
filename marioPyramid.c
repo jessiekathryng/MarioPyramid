@@ -22,6 +22,9 @@ int column;
      for(int row = 0; row < height; row++)
      {
         for(int column = 0; column <= row; column++)
+
+          printf("#");
+
      }
     
 }
